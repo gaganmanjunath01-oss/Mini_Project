@@ -1,0 +1,36 @@
+Create a complete C program for a **menu-driven 2D Graphics Editor** using a **2D character array** as the drawing canvas.
+
+Requirements:
+
+1. Use a fixed-size 2D character array (for example, 40×80) to represent the canvas.
+2. Initialize every position in the canvas with the underscore character `_`.
+3. Use the asterisk character `*` to draw graphical objects.
+4. Implement separate functions for the following operations:
+
+   * Draw a line
+   * Draw a rectangle
+   * Draw a triangle
+   * Draw a circle
+5. The program should provide a menu-driven interface allowing the user to:
+
+   * Add new objects to the canvas.
+   * Delete existing objects from the canvas.
+   * Modify existing objects by changing their position, dimensions, or coordinates.
+   * Display the current picture.
+   * Clear the entire canvas.
+   * Exit the program.
+6. Store details of all created objects in an appropriate structure array so that objects can be uniquely identified using an object ID.
+7. When deleting an object, redraw the canvas by clearing it and redrawing all remaining objects from the stored object list.
+8. When modifying an object, update its stored attributes and regenerate the complete picture.
+9. Include proper boundary checking to prevent drawing outside the canvas limits.
+10. Use modular programming practices with meaningful function names and comments explaining each major section of the code.
+11. Avoid using graphics libraries such as graphics.h. The output should be displayed purely as text in the console using the 2D character array.
+12. Make the implementation different from commonly available solutions by using structures, object management through IDs, and canvas regeneration techniques.
+
+Provide:
+
+* The complete C source code.
+* Explanation of the data structures used.
+* Sample input/output demonstrating all menu options.
+* Time complexity analysis for major operations.
+* The code should compile and run correctly in VS Code using the GCC/MinGW compiler.
